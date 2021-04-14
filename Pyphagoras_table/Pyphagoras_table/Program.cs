@@ -25,6 +25,7 @@ namespace Pyphagoras_table
              */
 
             Console.WriteLine();
+            Console.Write(" ");
             for (int space = 0, spaceEnd = vEnd; space < spaceEnd; spaceEnd /= 10)
             {
                 Console.Write(" ");
@@ -60,6 +61,7 @@ namespace Pyphagoras_table
 
             Console.WriteLine();
 
+            Console.Write("-");
             max = hEnd * vEnd;
             for (int space = 0, spaceEnd = vEnd; space < spaceEnd; spaceEnd /= 10)
             {
@@ -87,6 +89,7 @@ namespace Pyphagoras_table
 
             while (vStart <= vEnd)
             {
+                Console.Write(" ");
                 int vFirstNumb = vStart, space = 0;
                 while (vFirstNumb > 0)
                 {
